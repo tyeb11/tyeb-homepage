@@ -10,7 +10,7 @@ function Main({ children, router }) {
         <meta name="description" content="Tayyeb's homepage" />
         <meta name="author" content="Tayyeb Vhora" />
         <meta name="shortcut icon" content="" />
-        <title>Tayyeb Vhora's - Homepage</title>
+        <title>Tayyeb Vhora&apos;s - Homepage</title>
       </Head>
       <Navbar path={router.asPath} />
       <Container maxW="container.md">{children}</Container>
