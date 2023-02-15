@@ -1,5 +1,3 @@
-import { Heading, Link } from "@chakra-ui/react";
-
 function Home() {
   return <></>;
 }
