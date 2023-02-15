@@ -1,5 +1,5 @@
 # Tayyeb's Homepage
-[https://www.tyeb.dev/](tyeb-homepage.vercel.app)
+[https://www.tyeb.dev/](https://tyeb-homepage.vercel.app)
 
 ## Stack
 
