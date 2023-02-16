@@ -1,7 +1,7 @@
 import Layout from "@/components/layouts/article";
 import Section from "@/components/section";
 
-import { Box, Container, useColorModeValue, Heading, Image, Text, Flex, Grid, GridItem, Link } from "@chakra-ui/react";
+import { Box, Container, useColorModeValue, Heading, Image, Text, Flex, Grid, GridItem} from "@chakra-ui/react";
 
 
 
