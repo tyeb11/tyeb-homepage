@@ -1,7 +1,7 @@
 import Layout from "@/components/layouts/article";
 import Section from "@/components/section";
 
-import { Box, Container, useColorModeValue, chakra, Heading, Image, Link, Paragraph, Text, Flex, Grid, GridItem } from "@chakra-ui/react";
+import { Box, Container, useColorModeValue, Heading, Image, Text, Flex, Grid, GridItem } from "@chakra-ui/react";
 
 
 
@@ -89,7 +89,7 @@ function Home() {
             <Text as="span" fontWeight="bold">2022</Text>
             <Text as="span"   ml={4}>
 
-            Bachelor's in Game and Mobile Software Development from Tilak Maharashtra Vidyapeeth
+            Bachelor&apos;s in Game and Mobile Software Development from Tilak Maharashtra Vidyapeeth
             </Text>
           </Flex>
         </Section>
