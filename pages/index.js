@@ -23,7 +23,7 @@ function Home() {
         >
 
           <Box
-            borderColor={useColorModeValue("blackAlpha.800","whiteAlpha.800")}
+            borderColor={useColorModeValue("blackAlpha.400","whiteAlpha.800")}
             borderWidth={2}
             borderStyle="solid"
             w="300px"
