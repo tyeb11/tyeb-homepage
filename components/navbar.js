@@ -53,7 +53,7 @@ const Navbar = (props) => {
           gap={{ base: 4, md: 2, sm: 2 }}
           mt={{ base: 4, md: 0, sm: 0 }}
         >
-          <LinkItem href="#">#Home</LinkItem>
+          <LinkItem href="#home">#Home</LinkItem>
           <LinkItem href="#about">#About</LinkItem>
           <LinkItem href="#projects">#Projects</LinkItem>
           <LinkItem href="#contacts">#Contact</LinkItem>
