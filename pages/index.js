@@ -30,7 +30,7 @@ function Home() {
             display="inline-block"
             borderRadius="full"
             overflow="hidden"
-            mb={{ base: 8, md: 5, sm: 3 }}
+            
             m="auto"
             textAlign="center"
           >
@@ -42,10 +42,11 @@ function Home() {
 
             />
           </Box>
-          <Box flexGrow={1} mb={{ base: 14, md: 11, sm: 8 }}>
-            <Heading as="h2" textAlign="center" variant="page-title">
+          <Box flexGrow={1} mt={2} mb={{ base: 4, md: 11, sm: 8 }}>
+            <Heading mb={2} as="h2" textAlign="center" variant="page-title">
               Tayyeb Vhora
             </Heading>
+            <p >( Game/Web Developer )</p>
 
           </Box>
           <Box
@@ -89,7 +90,7 @@ function Home() {
             <Text as="span" fontWeight="bold">2022</Text>
             <Text as="span"   ml={4}>
 
-            Bachelor&apos;s in Game and Mobile Software Development from Tilak Maharashtra Vidyapeeth
+            Bachelor&apos;s in Game and Mobile Software Development from Tilak Maharashtra Vidyapeeth Pune
             </Text>
           </Flex>
         </Section>
