@@ -2,6 +2,7 @@ import Fonts from "@/components/fonts";
 import Layout from "@/components/layouts/main";
 import Chakra from "@/components/chakra";
 import { AnimatePresence } from "framer-motion";
+import '@/styles/zocial.css'
 
 if (typeof window !== "undefined") {
   window.history.scrollRestoration = "manual";

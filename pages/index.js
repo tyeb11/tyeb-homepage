@@ -1,7 +1,8 @@
 import Layout from "@/components/layouts/article";
 import Section from "@/components/section";
 
-import { Box, Container, useColorModeValue, Heading, Image, Text, Flex, Grid, GridItem } from "@chakra-ui/react";
+import { Box, Container, useColorModeValue, Heading, Image, Text, Flex, Grid, GridItem, Link } from "@chakra-ui/react";
+
 
 
 
@@ -22,7 +23,7 @@ function Home() {
         >
 
           <Box
-            borderColor="whiteAlpha.800"
+            borderColor={useColorModeValue("blackAlpha.800","whiteAlpha.800")}
             borderWidth={2}
             borderStyle="solid"
             w="300px"
@@ -53,7 +54,7 @@ function Home() {
             borderRadius="lg"
             p={3}
             textAlign="center"
-            bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+            bg={useColorModeValue('blackAlpha.200', 'whiteAlpha.200')}
             css={{ backdropFilter: 'blur(10px)' }}
           >
             Hello, I&apos;m a mern-stack developer based in Bengaluru!
@@ -62,7 +63,7 @@ function Home() {
         <Section delay={.1} >
           <Heading id="about" as="h3" variant="section-title">About</Heading>
           <Text as="p" textAlign="center" >
-            Tayyeb is full-stack developer based in Bengaluru with a
+            Tayyeb is a full-stack developer based in Bengaluru with a
             passion for building digital services/stuff he wants. He has a knack
             for planning and designing all the way to solving real-life problems with code. When not online, he loves
             to hang out with his friends, travel and play video games.
@@ -117,16 +118,24 @@ function Home() {
             <GridItem>Pygame</GridItem>
           </Grid>
         </Section>
-        <Section delay={.4}>
+        <Section  delay={.4}>
           <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
-        <Text>Travel, Music, Movies, Video Games (Overwatch, League of Legends).</Text>
+        <Text>Travel, Music, Movies, Books, Video Games (Overwatch, League of Legends).</Text>
         </Section>
         <Section delay={.5}>
-           <Heading as="h3" variant="section-title">
+           <Heading mb={7} as="h3" variant="section-title">
           Find me
         </Heading>
+        <Grid  ml={10} templateColumns='repeat(4,1fr)'>
+          
+        <GridItem as="a" href="https://twitter.com/MerchantTayyeb" target="_self" className="zocial twitter icon"></GridItem>
+        <GridItem as="a" href="https://www.linkedin.com/in/tayyeb-vhora-4a687520b/" target="_self" className="zocial linkedin icon"></GridItem>
+        <GridItem as="a" href="https://github.com/tyeb11" target="_self" className="zocial github icon"></GridItem>
+        <GridItem as="a" href="mailto:tayyeb@tyeb.dev" className="zocial gmail icon"></GridItem>
+        </Grid>
+        
         </Section>
       </Container>
     </Layout>
