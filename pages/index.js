@@ -55,7 +55,7 @@ function Home() {
             bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
             css={{ backdropFilter: 'blur(10px)' }}
           >
-            Hello, I&apos;m an mern-stack developer based in Bengaluru!
+            Hello, I&apos;m a mern-stack developer based in Bengaluru!
           </Box>
         </Box >
         <Section delay={.1} >
