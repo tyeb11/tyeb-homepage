@@ -3,6 +3,7 @@ import Layout from "@/components/layouts/main";
 import Chakra from "@/components/chakra";
 import { AnimatePresence } from "framer-motion";
 import '@/styles/zocial.css'
+import {Analytics} from '@vercel/analytics/react'
 
 
 if (typeof window !== "undefined") {
@@ -11,6 +12,7 @@ if (typeof window !== "undefined") {
 
 export default function App({ Component, pageProps, router }) {
   return (
+    <>
     <Chakra cookies={pageProps.cookies}>
       <Fonts />
       <Layout router={router}>
@@ -22,10 +24,12 @@ export default function App({ Component, pageProps, router }) {
               window.scrollTo({ top: 0 });
             }
           }}
-        >
+          >
           <Component {...pageProps} key={router.route} />
         </AnimatePresence>
       </Layout>
     </Chakra>
+    <Analytics/>
+          </>
   );
 }
