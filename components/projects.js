@@ -80,7 +80,7 @@ const Projects = () => {
                 <AnimatePresence>
 
                     <motion.div
-                        style={{ width: '70%', height: '70%', background: 'rgba(0,0,0,.1)', color: 'white' }}
+                        style={{ width: '70%', height: '70%', background: 'transparent', color: 'white' }}
                         animate={control}
                         initial={{ scale: 1, borderRadius: "5%", fontSize: 1 }}
 
