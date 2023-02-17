@@ -58,7 +58,7 @@ const Projects = () => {
         control.start({
             //scale: [1.2, 0, 0, 1],
             //fontSize: [1, 0, 0, 1],
-            x:[-1000,0],
+            x:[1000,0],
             transition: { duration: .5, ease: "easeInOut", }
         })
     }
@@ -67,7 +67,7 @@ const Projects = () => {
         control.start({
             //scale: [1.2, 0, 0, 1],
             //fontSize: [1, 0, 0, 1],
-            x:[1000,0],
+            x:[-1000,0],
             transition: { duration: .5, ease: "easeInOut", }
         })
     }
