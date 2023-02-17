@@ -56,16 +56,18 @@ const Projects = () => {
 
 
         control.start({
-            scale: [1.2, 0, 0, 1],
-            fontSize: [1, 0, 0, 1],
+            //scale: [1.2, 0, 0, 1],
+            //fontSize: [1, 0, 0, 1],
+            x:[-1000,0],
             transition: { duration: .5, ease: "easeInOut", }
         })
     }
     function rightIcon() {
         paginate(1)
         control.start({
-            scale: [1.2, 0, 0, 1],
-            fontSize: [1, 0, 0, 1],
+            //scale: [1.2, 0, 0, 1],
+            //fontSize: [1, 0, 0, 1],
+            x:[1000,0],
             transition: { duration: .5, ease: "easeInOut", }
         })
     }
@@ -82,7 +84,8 @@ const Projects = () => {
                     <motion.div
                         style={{ width: '70%', height: '70%', background: 'transparent', color: 'white' }}
                         animate={control}
-                        initial={{ scale: 1, borderRadius: "5%", fontSize: 1 }}
+                        // initial={{ scale: 1, borderRadius: "5%", fontSize: 1 }}
+                        initial={{ x: 0, borderRadius: "5%", fontSize: 1 }}
 
 
                     >
