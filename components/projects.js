@@ -56,7 +56,7 @@ const Projects = () => {
 
 
         control.start({
-            scale: [1, 0, 0, 1],
+            scale: [1.2, 0, 0, 1],
             fontSize: [1, 0, 0, 1],
             transition: { duration: .5, ease: "easeInOut", }
         })
@@ -64,7 +64,7 @@ const Projects = () => {
     function rightIcon() {
         paginate(1)
         control.start({
-            scale: [1, 0, 0, 1],
+            scale: [1.2, 0, 0, 1],
             fontSize: [1, 0, 0, 1],
             transition: { duration: .5, ease: "easeInOut", }
         })
