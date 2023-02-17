@@ -17,7 +17,7 @@ const cardDetails = [
 ]
 
 
-function LinkItem({ href, path, _target, children, ...props }) {
+function LinkItem({ href, children, ...props }) {
 
 
     return (
@@ -26,7 +26,7 @@ function LinkItem({ href, path, _target, children, ...props }) {
             p={3}
 
             color={useColorModeValue("#3d7aed", "#ff63c3")}
-            _target={_target}
+            target="_blank"
             href={href}
             {...props}
             fontSize={18}
