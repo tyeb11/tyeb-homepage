@@ -4,6 +4,7 @@ import Chakra from "@/components/chakra";
 import { AnimatePresence } from "framer-motion";
 import '@/styles/zocial.css'
 
+
 if (typeof window !== "undefined") {
   window.history.scrollRestoration = "manual";
 }

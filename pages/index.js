@@ -1,4 +1,5 @@
 import Layout from "@/components/layouts/article";
+import Projects from "@/components/projects";
 import Section from "@/components/section";
 
 import { Box, Container, useColorModeValue, Heading, Image, Text, Flex, Grid, GridItem} from "@chakra-ui/react";
@@ -62,7 +63,7 @@ function Home() {
         </Box >
         <Section delay={.1} >
           <Heading id="about" as="h3" variant="section-title">About</Heading>
-          <Text as="p" textAlign="center" >
+          <Text as="p" textAlign="left" >
             Tayyeb is a full-stack developer based in Bengaluru with a
             passion for building digital services/stuff he wants. He has a knack
             for planning and designing all the way to solving real-life problems with code. When not online, he loves
@@ -97,6 +98,12 @@ function Home() {
         </Section>
         <Section delay={.3}>
           <Heading as="h3" variant="section-title">
+            Projects
+          </Heading>
+            <Projects/>
+        </Section>
+        <Section  delay={.4}>
+          <Heading as="h3" variant="section-title">
             Skill
           </Heading>
           <Grid ml={10} templateColumns='repeat(3,1fr)'>
@@ -118,21 +125,21 @@ function Home() {
             <GridItem>Pygame</GridItem>
           </Grid>
         </Section>
-        <Section  delay={.4}>
+        <Section  delay={.5}>
           <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Text>Travel, Music, Movies, Books, Video Games (Overwatch, League of Legends).</Text>
         </Section>
-        <Section delay={.5}>
+        <Section delay={.6}>
            <Heading mb={7} as="h3" variant="section-title">
           Find me
         </Heading>
         <Grid  ml={10} templateColumns='repeat(4,1fr)'>
           
         <GridItem as="a" href="https://twitter.com/MerchantTayyeb" target="_self" className="zocial twitter icon"></GridItem>
-        <GridItem as="a" href="https://www.linkedin.com/in/tayyeb-vhora-4a687520b/" target="_self" className="zocial linkedin icon"></GridItem>
         <GridItem as="a" href="https://github.com/tyeb11" target="_self" className="zocial github icon"></GridItem>
+        <GridItem as="a" href="https://www.linkedin.com/in/tayyeb-vhora-4a687520b/" target="_self" className="zocial linkedin icon"></GridItem>
         <GridItem as="a" href="mailto:tayyeb@tyeb.dev" className="zocial gmail icon"></GridItem>
         </Grid>
         
