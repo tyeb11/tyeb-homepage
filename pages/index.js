@@ -102,7 +102,7 @@ function Home() {
           </Heading>
             <Projects/>
         </Section>
-        <Section  delay={.4}>
+        <Section delay={.4}>
           <Heading as="h3" variant="section-title">
             Skill
           </Heading>
