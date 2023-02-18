@@ -9,7 +9,7 @@ import { ArrowLeftIcon, ArrowRightIcon } from "@chakra-ui/icons";
 
 const cardDetails = [
     { title: 'E-Store', tectStack: 'MERN | MUI | Razorpay', about: 'App to connect customers to products or services for trading online.Integrated with Razorpay for smooth online transactions.', img: '', link: 'https://github.com/tyeb11/E-Store' },
-    { title: 'V-Chat', tectStack: 'MERN | MUI | Socket.io', about: 'Instant messaging app that lets users text with individual or groups.', img: '', link: 'https://github.com/tyeb11/V-Chat' },
+    { title: 'V-Chat', tectStack: 'MERN | MUI | Socket.io', about: 'Real time instant messaging app that lets users text with individual or groups.', img: '', link: 'https://github.com/tyeb11/V-Chat' },
     { title: 'tyeb-homepage', tectStack: 'Next | Chakra | Framer', about: 'Get the source code for the current page.', img: '', link: 'https://github.com/tyeb11/tyeb-homepage' },
     { title: 'Switch Runner ', tectStack: 'Pygame', about: 'Endless runner where character is restricted to jump so he manages to alter gravity.', img: '', link: 'https://github.com/tyeb11/SwitchRunner' },
     { title: 'javascript Algorithms ', tectStack: 'JS', about: 'get the source code for every DSA in JavaScript', img: '', link: 'https://github.com/tyeb11/javascript-algorithms' },

@@ -106,7 +106,7 @@ function Home() {
           <Heading as="h3" variant="section-title">
             Skill
           </Heading>
-          <Grid ml={10} templateColumns='repeat(3,1fr)'>
+          <Grid  templateColumns='repeat(4,1fr)'>
             <GridItem>C++</GridItem>
             <GridItem>Java</GridItem>
             <GridItem>JS</GridItem>
