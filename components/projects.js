@@ -8,12 +8,12 @@ import { ArrowLeftIcon, ArrowRightIcon } from "@chakra-ui/icons";
 
 
 const cardDetails = [
-    { title: 'E-Store', tectStack: 'MERN | MUI | Razorpay', img: '', link: 'https://github.com/tyeb11/E-Store' },
-    { title: 'V-Chat', tectStack: 'MERN | MUI | Socket.io', img: '', link: 'https://github.com/tyeb11/V-Chat' },
-    { title: 'tyeb-homepage', tectStack: 'Next | Chakra | Framer', img: '', link: 'https://github.com/tyeb11/tyeb-homepage' },
-    { title: 'Switch Runner ', tectStack: 'Pygame', img: '', link: 'https://github.com/tyeb11/SwitchRunner' },
-    { title: 'javascript Algorithms ', tectStack: 'JS', img: '', link: 'https://github.com/tyeb11/javascript-algorithms' },
-    { title: 'League of Legends Wiki', tectStack: 'React', img: '', link: 'https://github.com/tyeb11/wiki-lol-champs' }
+    { title: 'E-Store', tectStack: 'MERN | MUI | Razorpay', about: 'App to connect customers to products or services for trading online.Integrated with Razorpay for smooth online transactions.', img: '', link: 'https://github.com/tyeb11/E-Store' },
+    { title: 'V-Chat', tectStack: 'MERN | MUI | Socket.io', about: 'Instant messaging app that lets users text with individual or groups.', img: '', link: 'https://github.com/tyeb11/V-Chat' },
+    { title: 'tyeb-homepage', tectStack: 'Next | Chakra | Framer', about: 'Get the source code for the current page.', img: '', link: 'https://github.com/tyeb11/tyeb-homepage' },
+    { title: 'Switch Runner ', tectStack: 'Pygame', about: 'Endless runner where character is restricted to jump so he manages to alter gravity.', img: '', link: 'https://github.com/tyeb11/SwitchRunner' },
+    { title: 'javascript Algorithms ', tectStack: 'JS', about: 'get the source code for every DSA in JavaScript', img: '', link: 'https://github.com/tyeb11/javascript-algorithms' },
+    { title: 'League of Legends Wiki', tectStack: 'React', about: 'App that let you know about all the League of Legends Champions backstory.', img: '', link: 'https://github.com/tyeb11/wiki-lol-champs' }
 ]
 
 
@@ -58,7 +58,7 @@ const Projects = () => {
         control.start({
             //scale: [1.2, 0, 0, 1],
             //fontSize: [1, 0, 0, 1],
-            x:[1000,0],
+            x: [1000, 0],
             transition: { duration: .5, ease: "easeInOut", }
         })
     }
@@ -67,7 +67,7 @@ const Projects = () => {
         control.start({
             //scale: [1.2, 0, 0, 1],
             //fontSize: [1, 0, 0, 1],
-            x:[-1000,0],
+            x: [-1000, 0],
             transition: { duration: .5, ease: "easeInOut", }
         })
     }
@@ -76,7 +76,7 @@ const Projects = () => {
         <>
 
 
-            <Flex gap={4} h='sm' justify="space-between" align="center">
+            <Flex mt={-20} gap={4} h='sm' justify="space-between" align="center">
                 <IconButton bg="transparent" icon={<ArrowLeftIcon />} onClick={() => leftIcon()} />
 
                 <AnimatePresence>
@@ -97,7 +97,7 @@ const Projects = () => {
                                 <Heading mt={2} as="p" fontSize={12} color={useColorModeValue("#202023", "whiteAlpha.900")}>( {cardDetails[cardIndex].tectStack} )</Heading>
                             </Heading>
                             <Box borderRadius={5} w="100%" mt={-7} mr="auto" h={1} bg={useColorModeValue("#202023", "whiteAlpha.900")}></Box>
-
+                            <Heading textAlign="center" mt={-2} as="p" fontSize={12} color={useColorModeValue("#202023", "whiteAlpha.900")}>{cardDetails[cardIndex].about}</Heading>
                             <LinkItem mt={-5} href={cardDetails[cardIndex].link}>/projects/{cardDetails[cardIndex].title.toLowerCase()}</LinkItem>
                         </Flex>
                     </motion.div>
