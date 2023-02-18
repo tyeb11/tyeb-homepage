@@ -7,6 +7,10 @@ import {
 } from "@chakra-ui/react";
 import ThemeToggleButton from "./theme-toggle-button";
 
+function myScrollFunc(e){
+  console.log(e);
+}
+
 function LinkItem({ href, path, _target, children, ...props }) {
   const active = path === href;
   const inactiveColor = useColorModeValue("gray200", "whiteAlpha.900");
@@ -18,6 +22,7 @@ function LinkItem({ href, path, _target, children, ...props }) {
       _target={_target}
       href={href}
       {...props}
+      
     >
       {children}
     </Link>
@@ -56,7 +61,7 @@ const Navbar = (props) => {
           <LinkItem href="#home">#Home</LinkItem>
           <LinkItem href="#about">#About</LinkItem>
           <LinkItem href="#projects">#Projects</LinkItem>
-          <LinkItem href="#contacts">#Contact</LinkItem>
+          <LinkItem href="#contact">#Contact</LinkItem>
           <ThemeToggleButton />
         </Stack>
       </Container>

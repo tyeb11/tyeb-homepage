@@ -61,8 +61,8 @@ function Home() {
             Hello, I&apos;m a mern-stack developer based in Bengaluru!
           </Box>
         </Box >
-        <Section delay={.2} >
-          <Heading id="about" as="h3" variant="section-title">About</Heading>
+        <Section  delay={.2} >
+          <Heading id="about"  as="h3" variant="section-title">About</Heading>
           <Text as="p" textAlign="left" >
             Tayyeb is a full-stack developer based in Bengaluru with a
             passion for building digital services/stuff he wants. He has a knack
@@ -96,8 +96,8 @@ function Home() {
             </Text>
           </Flex>
         </Section>
-        <Section delay={.4}>
-          <Heading as="h3" variant="section-title">
+        <Section  delay={.4}>
+          <Heading id="projects" as="h3" variant="section-title">
             Projects
           </Heading>
             <Projects/>
@@ -135,7 +135,7 @@ function Home() {
            <Heading mb={7} as="h3" variant="section-title">
           Find me
         </Heading>
-        <Grid  ml={10} templateColumns='repeat(4,1fr)'>
+        <Grid id="contact" ml={10} templateColumns='repeat(4,1fr)'>
           
         <GridItem as="a" href="https://twitter.com/MerchantTayyeb" target="_self" className="zocial twitter icon"></GridItem>
         <GridItem as="a" href="https://github.com/tyeb11" target="_self" className="zocial github icon"></GridItem>
