@@ -7,9 +7,7 @@ import {
 } from "@chakra-ui/react";
 import ThemeToggleButton from "./theme-toggle-button";
 
-function myScrollFunc(e){
-  console.log(e);
-}
+
 
 function LinkItem({ href, path, _target, children, ...props }) {
   const active = path === href;
