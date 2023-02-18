@@ -61,7 +61,7 @@ function Home() {
             Hello, I&apos;m a mern-stack developer based in Bengaluru!
           </Box>
         </Box >
-        <Section delay={.1} >
+        <Section delay={.2} >
           <Heading id="about" as="h3" variant="section-title">About</Heading>
           <Text as="p" textAlign="left" >
             Tayyeb is a full-stack developer based in Bengaluru with a
@@ -70,7 +70,7 @@ function Home() {
             to hang out with his friends, travel and play video games.
           </Text>
         </Section>
-        <Section delay={.2} >
+        <Section delay={.3} >
           <Heading as="h3" variant="section-title">
             Education
           </Heading>
@@ -96,13 +96,13 @@ function Home() {
             </Text>
           </Flex>
         </Section>
-        <Section delay={.3}>
+        <Section delay={.4}>
           <Heading as="h3" variant="section-title">
             Projects
           </Heading>
             <Projects/>
         </Section>
-        <Section delay={.4}>
+        <Section delay={.5}>
           <Heading as="h3" variant="section-title">
             Skill
           </Heading>
@@ -125,13 +125,13 @@ function Home() {
             <GridItem>Pygame</GridItem>
           </Grid>
         </Section>
-        <Section  delay={.5}>
+        <Section  delay={.6}>
           <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Text>Travel, Music, Movies, Books, Video Games (Overwatch, League of Legends).</Text>
         </Section>
-        <Section delay={.6}>
+        <Section delay={.7}>
            <Heading mb={7} as="h3" variant="section-title">
           Find me
         </Heading>
