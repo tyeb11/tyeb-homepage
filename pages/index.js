@@ -15,13 +15,15 @@ function Home() {
       <Container
         id="home"
         mt={{ base: 20 }} p={5}>
+        <Section delay={.2}>
+
         <Box
           display='flex'
           align="center"
           justify='center'
           flexDir="column"
           mb={10}
-        >
+          >
 
           <Box
             borderColor={useColorModeValue("blackAlpha.400","whiteAlpha.800")}
@@ -35,14 +37,14 @@ function Home() {
             
             m="auto"
             textAlign="center"
-          >
+            >
             <Image
               src="/images/tayyeb.jpeg"
               alt="Profile image"
               borderRadius="full"
               boxSize="full"
-
-            />
+              
+              />
           </Box>
           <Box flexGrow={1} mt={2} mb={{ base: 4, md: 11, sm: 8 }}>
             <Heading mb={2} as="h2" textAlign="center" variant="page-title">
@@ -57,11 +59,12 @@ function Home() {
             textAlign="center"
             bg={useColorModeValue('blackAlpha.200', 'whiteAlpha.200')}
             css={{ backdropFilter: 'blur(10px)' }}
-          >
+            >
             Hello, I&apos;m a mern-stack developer based in Bengaluru!
           </Box>
         </Box >
-        <Section  delay={.2} >
+            </Section>
+        <Section  delay={.4} >
           <Heading id="about"  as="h3" variant="section-title">About</Heading>
           <Text as="p" textAlign="left" >
             Tayyeb is a full-stack developer based in Bengaluru with a
@@ -70,7 +73,7 @@ function Home() {
             to hang out with his friends, travel and play video games.
           </Text>
         </Section>
-        <Section delay={.3} >
+        <Section delay={.5} >
           <Heading as="h3" variant="section-title">
             Education
           </Heading>
@@ -96,13 +99,13 @@ function Home() {
             </Text>
           </Flex>
         </Section>
-        <Section  delay={.4}>
+        <Section  delay={.6}>
           <Heading id="projects" as="h3" variant="section-title">
             Projects
           </Heading>
             <Projects/>
         </Section>
-        <Section delay={.5}>
+        <Section delay={.7}>
           <Heading as="h3" variant="section-title">
             Skill
           </Heading>
@@ -125,13 +128,13 @@ function Home() {
             <GridItem>Pygame</GridItem>
           </Grid>
         </Section>
-        <Section  delay={.6}>
+        <Section  delay={.8}>
           <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Text>Travel, Music, Movies, Books, Video Games (Overwatch, League of Legends).</Text>
         </Section>
-        <Section delay={.7}>
+        <Section delay={.9}>
            <Heading mb={7} as="h3" variant="section-title">
           Find me
         </Heading>
