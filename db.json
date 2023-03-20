@@ -1,0 +1,24 @@
+{
+    "skills":["C++","Java","JS","TS","React","Next","Node","MongoDB","SQL","Git & Github","Linux","Linode","Vim","Unity","Unreal","Pygame"],
+    "current-location":"Bengaluru",
+    "projects":[
+        { "title":"E-Store", "tech-stack": "MERN | MUI | Razorpay", "about": "App to connect customers to products or services for trading online.Integrated with Razorpay for smooth online transactions.", "img": "", "link": "https://github.com/tyeb11/E-Store" },
+        { "title": "V-Chat", "tech-stack": "MERN | MUI | Socket.io', about: Real time instant messaging app that lets users text with individual or groups.", "img": "", "link": "https://github.com/tyeb11/V-Chat"},
+        { "title": "tyeb-homepage", "tech-stack": "Next | Chakra | Framer', about: 'Get the source code for the current page.", "img": "", "link": "https://github.com/tyeb11/tyeb-homepage"},
+        { "title": "Switch Runner", "tech-stack": "Pygame", "about": "Endless runner where character is restricted to jump so he manages to alter gravity.", "img": "", "link": "https://github.com/tyeb11/SwitchRunner"},
+        { "title": "javascript Algorithms", "tech-stack": "JS", "about": "get the source code for every DSA in JavaScript", "img": "", "link": "https://github.com/tyeb11/javascript-algorithms"},
+        { "title": "League of Legends Wiki", "tech-stack": "React", "about": "App that let you know about all the League of Legends Champions backstory.", "img": "", "link": "https://github.com/tyeb11/wiki-lol-champs"}
+    ],
+    "education":[
+        {"year":"2017","discription":"Secondary Schooling from Chavara English Medium School Nandurbar"},
+        {"year":"2019","discription":"Higher Secondary Schooling from Upadhye Colledge of Science Nashik"},
+        {"year":"2022","discription":"Bachelor&apos;s in Game and Mobile Software Development from Tilak Maharashtra Vidyapeeth Pune"}
+    ],
+    "find-me":[
+        {"link":"https://twitter.com/MerchantTayyeb","platform":"twitter","class-name":"zocial twitter icon"},
+        {"link":"https://github.com/tyeb11","platform":"github","class-name":"zocial github icon"},
+        {"link":"https://www.linkedin.com/in/tayyeb-vhora-4a687520b/","platform":"linkedin","class-name":"zocial linkedin icon"},
+        {"link":"mailto:tayyeb@tyeb.dev","platform":"gmail","class-name":"zocial gmail icon"}
+    ],
+    "i-love":"Travel, Music, Movies, Books, Video Games (Overwatch, League of Legends)."
+}

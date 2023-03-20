@@ -1,7 +1,7 @@
 import Layout from "@/components/layouts/article";
 import Projects from "@/components/projects";
 import Section from "@/components/section";
-
+import data from '@/db.json'
 import { Box, Container, useColorModeValue, Heading, Image, Text, Flex, Grid, GridItem} from "@chakra-ui/react";
 
 
@@ -9,6 +9,7 @@ import { Box, Container, useColorModeValue, Heading, Image, Text, Flex, Grid, Gr
 
 
 function Home() {
+  
   return <>
     <Layout>
 
@@ -60,7 +61,7 @@ function Home() {
             bg={useColorModeValue('blackAlpha.200', 'whiteAlpha.200')}
             css={{ backdropFilter: 'blur(10px)' }}
             >
-            Hello, I&apos;m a mern-stack developer based in Bengaluru!
+            Hello, I&apos;m a mern-stack developer based in {data.current-location}!
           </Box>
         </Box >
             </Section>
@@ -132,7 +133,7 @@ function Home() {
           <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
-        <Text>Travel, Music, Movies, Books, Video Games (Overwatch, League of Legends).</Text>
+        <Text>{data.i-love}</Text>
         </Section>
         <Section delay={.9}>
            <Heading mb={7} as="h3" variant="section-title">
