@@ -40,8 +40,9 @@ function Home() {
             textAlign="center"
             >
             <Image
-              src="/images/tayyeb.jpeg"
+              src="/images/IMGMM.png"
               alt="Profile image"
+              
               borderRadius="full"
               boxSize="full"
               
@@ -61,7 +62,7 @@ function Home() {
             bg={useColorModeValue('blackAlpha.200', 'whiteAlpha.200')}
             css={{ backdropFilter: 'blur(10px)' }}
             >
-            Hello, I&apos;m a mern-stack developer based in {data.current-location}!
+            Hello, I&apos;m a mern-stack developer based in {data.currentLocation}!
           </Box>
         </Box >
             </Section>
@@ -133,7 +134,7 @@ function Home() {
           <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
-        <Text>{data.i-love}</Text>
+        <Text>{data.iLove}</Text>
         </Section>
         <Section delay={.9}>
            <Heading mb={7} as="h3" variant="section-title">
