@@ -40,7 +40,7 @@ function Home() {
             textAlign="center"
             >
             <Image
-              src="/images/IMGMM.png"
+              src="/images/IMG.png"
               alt="Profile image"
               
               borderRadius="full"
